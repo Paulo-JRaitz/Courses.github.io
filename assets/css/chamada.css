@@ -1,0 +1,86 @@
+.perfil {
+    margin-bottom: 2.5rem;
+    /* background-image: url(/); */
+    background-position: top -4rem right;
+    background-repeat: no-repeat;
+
+    flex-direction: column;
+    position: relative;
+
+    /* line-height: 1.36; */
+    transition: all .3s ease;
+}
+
+.perfil_texto {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: " texting img";
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.avatar_imagem {
+    grid-area: img;
+
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.perfil_texto {
+    width: 100%;
+    grid-area: texting;
+}
+
+.avatar_imagem {
+    width: 10rem;
+
+}
+
+
+.row {
+    vertical-align: top;
+    height: auto !important;
+}
+
+.list {
+    display: none;
+
+}
+
+.show {
+    display: none;
+
+}
+
+.hide:target+.show {
+    display: inline;
+
+}
+
+.hide:target+.hide {
+    display: inline;
+
+}
+
+.hide:target {
+    display: none;
+
+}
+
+.hide:target~.list {
+    display: inline;
+
+}
+
+@media print {
+
+    .hide,
+    .show {
+        display: none;
+
+    }
+}

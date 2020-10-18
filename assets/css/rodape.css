@@ -1,0 +1,48 @@
+.rodape {
+    padding: 2rem;
+    padding-bottom: 2.5rem;
+    background-color: var(--cinza);
+    background-image: url(../../assets/img/assRTZ.png);
+    background-position: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 0.8rem;
+    max-height: 12rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rodape_social {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.rodape,
+.body {
+    color: var(--branco);
+}
+
+.rodape {
+    padding: 3rem;
+}
+
+.rodape_social-midia {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1.625rem;
+}
+
+.rodape_unidade {
+    margin-bottom: 1rem;
+}
+
+.rodape_unidade-titulo {
+    color: var(--amarelo);
+    font-size: var(--tamanho-destaque);
+    font-weight: var(--peso-destaque);
+    display: block;
+    margin-bottom: .2rem;
+}
